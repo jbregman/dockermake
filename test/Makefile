@@ -1,9 +1,9 @@
 include env_make
-NS = $(USER)
+NS = dockermake
 VERSION ?= latest
 
-REPO = dockermake-test
-NAME = dockermake-test
+REPO = test
+NAME = test
 INSTANCE = default
 
 .PHONY: build push shell run start stop rm release
